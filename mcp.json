@@ -1,0 +1,25 @@
+{
+  "name": "nihaisha-renji",
+  "description": "倪海厦人纪中医辨证查询 — Ni Haixia Renji TCM Knowledge Query",
+  "tools": [
+    {
+      "name": "query_renji",
+      "description": "Search Ni Haixia Renji TCM knowledge base. 输入症状/方剂/穴位关键词，搜索倪海厦人纪12门课程知识库。",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "symptom": {
+            "type": "string",
+            "description": "症状/方剂/穴位关键词（如：桂枝汤、头痛、足三里）"
+          },
+          "top_k": {
+            "type": "integer",
+            "description": "返回结果数量",
+            "default": 5
+          }
+        },
+        "required": ["symptom"]
+      }
+    }
+  ]
+}
