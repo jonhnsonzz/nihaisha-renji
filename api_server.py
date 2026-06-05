@@ -1,4 +1,4 @@
-"""倪海厦中医辨证查询API — 数据广场端口8833"""
+"""倪海厦中医辨证查询API — 端口8833"""
 import subprocess, os
 from fastapi import FastAPI
 from pydantic import BaseModel
