@@ -171,7 +171,7 @@ cp -r nihaisha-renji ~/.hermes/skills/nihaisha-renji
 - **总大小**: 8.7 MB
 - **课程数量**: 12门
 - **截图证据**: 数千张（板書/PPT/实操）
-- **API价格**: 15 UT/次（UUMit数据广场）
+| **API价格**: 开放平台定价
 - **代码语言**: Python 3.8+
 
 ## 🤝 Contributing
@@ -191,8 +191,8 @@ Educational use only. Content copyright belongs to the original course materials
 ## 🙏 Credits
 
 - **倪海厦先生** — 人纪课程的全部知识来源
-- **虾仔** — 课程资料整理与截图索引构建
-- **虾哥** — 知识系统工程化与API服务
+- **社区贡献者** — 课程资料整理与截图索引构建
+- **项目维护者** — 知识系统工程化与API服务
 
 ## 📬 Related Projects
 
