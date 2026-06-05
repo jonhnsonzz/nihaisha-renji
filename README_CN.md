@@ -120,7 +120,7 @@ cp -r nihaisha-renji ~/.hermes/skills/nihaisha-renji
 - **引用文件**: 56个（含全文索引）
 - **总大小**: 8.7 MB
 - **课程数量**: 12门
-- **API价格**: 15 UT/次（UUMit数据广场）
+| **API价格**: 开放平台定价
 - **代码语言**: Python 3.8+
 
 ## 🤝 贡献指南
