@@ -194,9 +194,9 @@ references/
 
 本系统提供REST API接口：
 - **端点：** `POST /api/query` with `{"symptom":"关键词","top_k":5}`
-- **端口：** 8833
+- **端口：** `{API_PORT}`
 - **搜索范围：** 人纪56个引用文件（含全文索引）
-- **启动方式：** `python3 -m uvicorn api_server:app --host 0.0.0.0 --port 8833`
+- **启动方式：** `python3 -m uvicorn api_server:app --host 0.0.0.0 --port {API_PORT}`
 
 ## 相关Skill
 
