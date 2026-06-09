@@ -85,10 +85,10 @@ pip install fastapi uvicorn
 
 # 2. 启动服务器
 cd nihaisha-renji
-python3 -m uvicorn api_server:app --host 0.0.0.0 --port 8833
+python3 -m uvicorn api_server:app --host 0.0.0.0 --port {API_PORT}
 
 # 3. 查询知识库
-curl -X POST http://localhost:8833/api/query \
+curl -X POST http://localhost:{API_PORT}/api/query \
   -H "Content-Type: application/json" \
   -d '{"symptom":"桂枝汤","top_k":3}'
 ```
@@ -119,7 +119,7 @@ curl -X POST http://localhost:8833/api/query \
     "nihaisha-renji": {
       "command": "python3",
       "args": ["/absolute/path/to/nihaisha-renji/api_server.py"],
-      "env": {"PORT": "8833"}
+      "env": {"PORT": "{API_PORT}"}
     }
   }
 }
