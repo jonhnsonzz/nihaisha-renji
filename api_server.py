@@ -1,4 +1,4 @@
-"""倪海厦中医辨证查询API — 端口8833"""
+"""倪海厦中医辨证查询API — 端口{API_PORT}"""
 import subprocess, os
 from fastapi import FastAPI
 from pydantic import BaseModel
